@@ -1,0 +1,17 @@
+<div>
+  <h2>File Upload</h2>
+  
+  <input type="text" placeholder="First Name" [(ngModel)]="firstName" />
+  <input type="text" placeholder="Last Name" [(ngModel)]="lastName" />
+  
+  <input type="file" (change)="onFilesSelected($event)" multiple />
+  <button (click)="uploadFiles()">Upload</button>
+  
+</div>
+
+<div *ngIf="selectedFiles && selectedFiles.length > 0">
+  <h3>Selected Files:</h3>
+  <ul>
+    <li *ngFor="let file of selectedFiles">{{ file.name }}</li>
+  </ul>
+</div>

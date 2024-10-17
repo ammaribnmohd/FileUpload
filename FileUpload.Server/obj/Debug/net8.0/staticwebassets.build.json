@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lIs9Zq7qBvTDUH5nWBxqGtmLWaycarJuNnI2KRRDlWM=",
+  "Source": "FileUpload.Server",
+  "BasePath": "_content/FileUpload.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
